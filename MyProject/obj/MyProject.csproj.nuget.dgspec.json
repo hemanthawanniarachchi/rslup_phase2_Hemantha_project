@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\MyProject\\MyProject.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\Myproject\\MyProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\MyProject\\MyProject.csproj": {
+    "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\Myproject\\MyProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\MyProject\\MyProject.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\Myproject\\MyProject.csproj",
         "projectName": "MyProject",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\MyProject\\MyProject.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\Myproject\\MyProject.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\MyProject\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\Myproject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
