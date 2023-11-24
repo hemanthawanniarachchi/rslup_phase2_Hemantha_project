@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\Asus\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgBridge_Core Condition=" '$(PkgBridge_Core)' == '' ">C:\Users\Asus\.nuget\packages\bridge.core\17.1.0</PkgBridge_Core>
+  </PropertyGroup>
 </Project>

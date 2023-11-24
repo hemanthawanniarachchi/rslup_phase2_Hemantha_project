@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Retyped.eslint" Version="4.16.6733" />
+  </ItemGroup>
+
 </Project>
