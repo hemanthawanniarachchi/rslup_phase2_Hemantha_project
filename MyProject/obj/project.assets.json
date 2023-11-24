@@ -1,11 +1,320 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Bridge.Core/17.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Bridge.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Bridge.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Retyped.Core/1.6.6733": {
+        "type": "package",
+        "dependencies": {
+          "Bridge.Core": "17.1.0"
+        },
+        "compile": {
+          "lib/net40/Retyped.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Retyped.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Retyped.es2015.collection/2.8.6733": {
+        "type": "package",
+        "dependencies": {
+          "Retyped.es5": "2.8.6733"
+        },
+        "compile": {
+          "lib/net40/Retyped.es2015.collection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Retyped.es2015.collection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Retyped.es2015.core/2.8.6733": {
+        "type": "package",
+        "dependencies": {
+          "Retyped.es5": "2.8.6733"
+        },
+        "compile": {
+          "lib/net40/Retyped.es2015.core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Retyped.es2015.core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Retyped.es2015.iterable/2.8.6733": {
+        "type": "package",
+        "dependencies": {
+          "Retyped.es2015.core": "2.8.6733",
+          "Retyped.es2015.symbol": "2.8.6733"
+        },
+        "compile": {
+          "lib/net40/Retyped.es2015.iterable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Retyped.es2015.iterable.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Retyped.es2015.symbol/2.8.6733": {
+        "type": "package",
+        "dependencies": {
+          "Retyped.Core": "1.6.6733"
+        },
+        "compile": {
+          "lib/net40/Retyped.es2015.symbol.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Retyped.es2015.symbol.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Retyped.es5/2.8.6733": {
+        "type": "package",
+        "dependencies": {
+          "Retyped.Core": "1.6.6733"
+        },
+        "compile": {
+          "lib/net40/Retyped.es5.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Retyped.es5.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Retyped.eslint/4.16.6733": {
+        "type": "package",
+        "dependencies": {
+          "Retyped.es2015.collection": "2.8.6733",
+          "Retyped.es2015.iterable": "2.8.6733",
+          "Retyped.estree": "0.1.6733",
+          "Retyped.json-schema": "6.0.6733"
+        },
+        "compile": {
+          "lib/net40/Retyped.eslint.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Retyped.eslint.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Retyped.estree/0.1.6733": {
+        "type": "package",
+        "dependencies": {
+          "Retyped.es5": "2.8.6733"
+        },
+        "compile": {
+          "lib/net40/Retyped.estree.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Retyped.estree.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Retyped.json-schema/6.0.6733": {
+        "type": "package",
+        "dependencies": {
+          "Retyped.Core": "1.6.6733"
+        },
+        "compile": {
+          "lib/net40/Retyped.json-schema.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Retyped.json-schema.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Bridge.Core/17.1.0": {
+      "sha512": "IND6qp5xWeVYS/2Z61tJkv9S/Tq1LixeUrtK6+GlCQcQ8MGAkgApR5H3flAO1SORkdhLqBdcJIRPeH0HCfv2Lg==",
+      "type": "package",
+      "path": "bridge.core/17.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "bridge.core.17.1.0.nupkg.sha512",
+        "bridge.core.nuspec",
+        "lib/net40/Bridge.dll",
+        "lib/net40/Bridge.xml",
+        "lib/net40/pdb/Bridge.pdb",
+        "tools/install.ps1"
+      ]
+    },
+    "Retyped.Core/1.6.6733": {
+      "sha512": "Gnc7oVSMxyWvgWxFMGVwaY7zsSE9J4aednCjsGYoauvU5GLQJYLa6UZ9dtpeeS5CvEnny6rZNhNJOn9qz/aXNQ==",
+      "type": "package",
+      "path": "retyped.core/1.6.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.Core.dll",
+        "lib/net40/Retyped.Core.xml",
+        "retyped.core.1.6.6733.nupkg.sha512",
+        "retyped.core.nuspec"
+      ]
+    },
+    "Retyped.es2015.collection/2.8.6733": {
+      "sha512": "Jv/V48LVnltx1IfBAgVcrpIaCK9estj2xyRfZYyC6IwahTwhqxcEOdflV/iD4SAf6IvSqbBrrZSGwYXmb9MdCQ==",
+      "type": "package",
+      "path": "retyped.es2015.collection/2.8.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.es2015.collection.dll",
+        "lib/net40/Retyped.es2015.collection.xml",
+        "retyped.es2015.collection.2.8.6733.nupkg.sha512",
+        "retyped.es2015.collection.nuspec"
+      ]
+    },
+    "Retyped.es2015.core/2.8.6733": {
+      "sha512": "zgVylQjXEraSE2Qd4X+9om7fjFoqTjRiXr+gGyNwq116xo5LENao30xoJo48qaW/8Tgo44RRPB2FZOtae9RejQ==",
+      "type": "package",
+      "path": "retyped.es2015.core/2.8.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.es2015.core.dll",
+        "lib/net40/Retyped.es2015.core.xml",
+        "retyped.es2015.core.2.8.6733.nupkg.sha512",
+        "retyped.es2015.core.nuspec"
+      ]
+    },
+    "Retyped.es2015.iterable/2.8.6733": {
+      "sha512": "x0ZDjAzQKIvnpMGXZftlEwm/LXdlqfe7cd9qjo6QpTvT/n1LG5Cxugn+QICL3W7zZjcRANpTtf49FEAkIfNMtA==",
+      "type": "package",
+      "path": "retyped.es2015.iterable/2.8.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.es2015.iterable.dll",
+        "lib/net40/Retyped.es2015.iterable.xml",
+        "retyped.es2015.iterable.2.8.6733.nupkg.sha512",
+        "retyped.es2015.iterable.nuspec"
+      ]
+    },
+    "Retyped.es2015.symbol/2.8.6733": {
+      "sha512": "zzyH09Eq/7Tb4rZVErj5fuvqvN4o6v3OqMP6Kjq44M6AC9V1jLLt+SsKgz5iVs1f2oxVFdSclRZXKbQotj+bGw==",
+      "type": "package",
+      "path": "retyped.es2015.symbol/2.8.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.es2015.symbol.dll",
+        "lib/net40/Retyped.es2015.symbol.xml",
+        "retyped.es2015.symbol.2.8.6733.nupkg.sha512",
+        "retyped.es2015.symbol.nuspec"
+      ]
+    },
+    "Retyped.es5/2.8.6733": {
+      "sha512": "whe7wfp1Ge7RH7FlR2s1Br8AGcD60flmYQmPYN/Rr9hGJsYyMd5CrzgyLoAQAxiv0/WOcfJNtDd5OQT9ookTQw==",
+      "type": "package",
+      "path": "retyped.es5/2.8.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.es5.dll",
+        "lib/net40/Retyped.es5.xml",
+        "retyped.es5.2.8.6733.nupkg.sha512",
+        "retyped.es5.nuspec"
+      ]
+    },
+    "Retyped.eslint/4.16.6733": {
+      "sha512": "k0nOUuqLE9LYU9A59duYcKKMmRDRdxZbJ+Shlz4wd2w7oYIxBOd4/rxTj76PcWtILplpfGP25FvY0QAuxwhfwQ==",
+      "type": "package",
+      "path": "retyped.eslint/4.16.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.eslint.dll",
+        "lib/net40/Retyped.eslint.xml",
+        "retyped.eslint.4.16.6733.nupkg.sha512",
+        "retyped.eslint.nuspec"
+      ]
+    },
+    "Retyped.estree/0.1.6733": {
+      "sha512": "ZyPSwK5E7c2tDfmFlg/z8DyL+u1uJQ/pCG746ZpNXT1kMWkCyrc1lI2V9pfh3DTng3S/VfrYlUuYnbJB2Hhy5g==",
+      "type": "package",
+      "path": "retyped.estree/0.1.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.estree.dll",
+        "lib/net40/Retyped.estree.xml",
+        "retyped.estree.0.1.6733.nupkg.sha512",
+        "retyped.estree.nuspec"
+      ]
+    },
+    "Retyped.json-schema/6.0.6733": {
+      "sha512": "DQ1zmjsleWnTi/X4ikXYD1I2HjuQeBZe2XztB8HwGqleMHIEEh6yoVtmuELEhxIjwB3nVhzVCdz9SUXCmRJ9Vg==",
+      "type": "package",
+      "path": "retyped.json-schema/6.0.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.json-schema.dll",
+        "lib/net40/Retyped.json-schema.xml",
+        "retyped.json-schema.6.0.6733.nupkg.sha512",
+        "retyped.json-schema.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Retyped.eslint >= 4.16.6733"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Asus\\.nuget\\packages\\": {},
@@ -51,6 +360,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Retyped.eslint": {
+            "target": "Package",
+            "version": "[4.16.6733, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -73,5 +388,107 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Bridge.Core 17.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Bridge.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.Core 1.6.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es2015.collection 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es2015.collection",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es2015.core 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es2015.core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es2015.iterable 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es2015.iterable",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es2015.symbol 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es2015.symbol",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es5 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es5",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.eslint 4.16.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.eslint",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.estree 0.1.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.estree",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.json-schema 6.0.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.json-schema",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

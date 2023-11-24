@@ -1,8 +1,120 @@
 {
   "version": 2,
-  "dgSpecHash": "CcPdHgAnncdmxXaXbNLkpo9ufjrINjGcauqv1MlMf+RTsq1KkZOHNl5eIiI0kYxFLfNAQizgLnHaT3lByNn5Ag==",
+  "dgSpecHash": "RmRVPlLU44C7M17t/28e30ruZC2J/GPbBGt/VUv8MCyXErHclSiNiGDe6p8I6N9YWJm3NqSrHyWmNq9OsHUPUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\Myproject\\MyProject.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\rslup_phase2_Hemantha_project\\MyProject\\MyProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\bridge.core\\17.1.0\\bridge.core.17.1.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\retyped.core\\1.6.6733\\retyped.core.1.6.6733.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\retyped.es2015.collection\\2.8.6733\\retyped.es2015.collection.2.8.6733.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\retyped.es2015.core\\2.8.6733\\retyped.es2015.core.2.8.6733.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\retyped.es2015.iterable\\2.8.6733\\retyped.es2015.iterable.2.8.6733.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\retyped.es2015.symbol\\2.8.6733\\retyped.es2015.symbol.2.8.6733.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\retyped.es5\\2.8.6733\\retyped.es5.2.8.6733.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\retyped.eslint\\4.16.6733\\retyped.eslint.4.16.6733.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\retyped.estree\\0.1.6733\\retyped.estree.0.1.6733.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\retyped.json-schema\\6.0.6733\\retyped.json-schema.6.0.6733.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Bridge.Core 17.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Bridge.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.Core 1.6.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es2015.collection 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es2015.collection",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es2015.core 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es2015.core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es2015.iterable 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es2015.iterable",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es2015.symbol 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es2015.symbol",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.es5 2.8.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.es5",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.eslint 4.16.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.eslint",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.estree 0.1.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.estree",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.json-schema 6.0.6733' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Retyped.json-schema",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
