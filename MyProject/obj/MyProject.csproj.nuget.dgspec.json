@@ -45,9 +45,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Retyped.eslint": {
+            "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[4.16.6733, )"
+              "version": "[6.14.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.14.0, )"
             }
           },
           "imports": [

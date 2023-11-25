@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Retyped.eslint" Version="4.16.6733" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.14.0" />
+     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.14.0" />
   </ItemGroup>
 
 </Project>

@@ -28,6 +28,6 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllers(); // This maps all attribute-routed API controllers
+app.MapControllers();
 
 app.Run();
